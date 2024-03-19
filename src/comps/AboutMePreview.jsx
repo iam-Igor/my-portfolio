@@ -11,15 +11,15 @@ const AboutMePreview = () => {
 
   return (
     <>
-      <div style={{ width: "60%" }} className="mb-5 mb-md-0">
+      <div style={{ width: "70%" }} className="mb-5 mb-md-0">
         <h2>Let's get know about me closer</h2>
         <p className="my-5">
-          I was born in 1995, and I live in Cosenza, Italy. I have always had a
-          passion for technology in general. Since I started writing my first
-          pieces of code, I fell in love with this world because I enjoy turning
-          my ideas into something concrete. I am methodical, precise, and
-          skilled in problem-solving, and I adapt easily to both teamwork and
-          autonomy.
+          My name is Ygor Garofalo, I was born in 1995, and I live in Cosenza,
+          Italy. I have always had a passion for technology in general. Since I
+          started writing my first pieces of code, I fell in love with this
+          world because I enjoy turning my ideas into something concrete. I am
+          methodical, precise, and skilled in problem-solving, and I adapt
+          easily to both teamwork and autonomy.
         </p>
         <Button
           className="rounded-4 hero-btn"

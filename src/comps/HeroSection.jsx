@@ -1,44 +1,54 @@
-import { Button } from "react-bootstrap";
-import { useParallax } from "react-scroll-parallax";
+import { ParallaxBanner } from "react-scroll-parallax";
+
+import "../assets/style/hero.css";
 
 const HeroSection = () => {
-  const scrollToSection = (sectionId) => {
-    const section = document.getElementById(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
+  const background = {
+    image:
+      "https://s3-us-west-2.amazonaws.com/s.cdpn.io/105988/banner-background.jpg",
+    translateY: [0, 50],
+    opacity: [1, 0.3],
+    scale: [1.05, 1, "easeOutCubic"],
+    shouldAlwaysCompleteAnimation: true,
   };
 
-  const parallax = useParallax({
-    onProgressChange: (progress) => {
-      if (parallax.ref.current) {
-        // set progress to CSS variable
-        parallax.ref.current.style.setProperty(
-          "--progress",
-          progress.toString()
-        );
-      }
-    },
-  });
+  const headline = {
+    translateY: [0, 30],
+    scale: [1, 1.05, "easeOutCubic"],
+    shouldAlwaysCompleteAnimation: true,
+    expanded: false,
+    children: (
+      <div className="inset center">
+        <h1 className="headline white">Hello There!</h1>
+      </div>
+    ),
+  };
+
+  const foreground = {
+    image:
+      "https://s3-us-west-2.amazonaws.com/s.cdpn.io/105988/banner-foreground.png",
+    translateY: [0, 15],
+    scale: [1, 1.1, "easeOutCubic"],
+    shouldAlwaysCompleteAnimation: true,
+  };
+
+  const gradientOverlay = {
+    opacity: [0, 1, "easeOutCubic"],
+    shouldAlwaysCompleteAnimation: true,
+    expanded: false,
+    children: <div className="gradient inset" />,
+  };
 
   return (
     <>
       {" "}
-      <h1
-        ref={parallax.ref}
-        className="text-stroke "
-        // use the progress variable to change the width of the stroke as progress updates
-        style={{ textStrokeWidth: `calc(20px * var(--progress))` }}
-      >
-        Hello There!
-      </h1>
-      <h4 className="my-3">I'm a Full-Stack Developer</h4>
-      <Button
-        className="rounded-4 hero-btn"
-        onClick={() => scrollToSection("projects")}
-      >
-        Explore my projects <i className="bi bi-arrow-right"></i>
-      </Button>
+      <ParallaxBanner
+        layers={[background, headline, foreground, gradientOverlay]}
+        className="full"
+      />
+      <div className="center full text-center">
+        <h1 className="headline gray">I am a Full-Stack Developer</h1>
+      </div>
     </>
   );
 };

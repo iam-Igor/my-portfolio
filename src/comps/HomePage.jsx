@@ -16,16 +16,14 @@ const HomePage = () => {
   });
 
   return (
-    <Container fluid>
+    <Container fluid className="overflow-x-hidden">
       <motion.div className="progress-bar" style={{ scaleX }} />
       <Row className="flex-column bg-dark">
-        <Col
-          className="d-flex flex-column align-items-center py-5 bg-dark text-white"
-          id="hero"
-        >
+        <Col className="d-flex flex-column align-items-center pb-5 px-0 bg-dark text-white">
           {" "}
           <HeroSection />
         </Col>
+
         <Col
           className="text-white py-5 d-flex flex-md-row flex-column align-items-center justify-content-md-around"
           id="about"
