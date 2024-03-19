@@ -1,11 +1,11 @@
 import { ParallaxBanner } from "react-scroll-parallax";
-
+import bg from "../assets/img/banner-background.jpg";
+import fg from "../assets/img/banner-foreground.png";
 import "../assets/style/hero.css";
 
 const HeroSection = () => {
   const background = {
-    image:
-      "https://s3-us-west-2.amazonaws.com/s.cdpn.io/105988/banner-background.jpg",
+    image: bg,
     translateY: [0, 50],
     opacity: [1, 0.3],
     scale: [1.05, 1, "easeOutCubic"],
@@ -25,8 +25,7 @@ const HeroSection = () => {
   };
 
   const foreground = {
-    image:
-      "https://s3-us-west-2.amazonaws.com/s.cdpn.io/105988/banner-foreground.png",
+    image: fg,
     translateY: [0, 15],
     scale: [1, 1.1, "easeOutCubic"],
     shouldAlwaysCompleteAnimation: true,
