@@ -3,6 +3,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { NavBar } from "./comps/NavBar";
 import { HomePage } from "./comps/HomePage";
+import { GoUpButton } from "./comps/GoUpButton";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>
+      <GoUpButton />
     </BrowserRouter>
   );
 }

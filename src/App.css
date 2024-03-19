@@ -105,7 +105,7 @@ body {
 
 section h2,
 p {
-  text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.6);
+  text-shadow: 3px 6px 30px rgba(66, 68, 90, 1);
 }
 
 section p {
@@ -143,6 +143,12 @@ section p {
   top: -10%;
 }
 
+.go-up {
+  position: fixed;
+  bottom: 10%;
+  right: 10%;
+}
+
 @media screen and (max-width: 480px) {
   .quote-img {
     position: absolute;
@@ -150,4 +156,22 @@ section p {
     right: 2%;
     top: -10%;
   }
+
+  .go-up {
+    position: fixed;
+    bottom: 10%;
+    right: 1%;
+  }
+}
+
+.btn-dial button {
+  background-color: #fa9143;
+}
+
+.btn-dial button:hover {
+  background-color: #e27d32;
+}
+
+.btn-dial button:active {
+  background-color: #fa9143;
 }
