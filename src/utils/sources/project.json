@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "image": "https://res.cloudinary.com/dr4x8lu8f/image/upload/v1710842761/food2you_ls7uj1.png",
+    "title": "Food2You",
+    "client": "Private",
+    "type": "WebApp",
+    "description": "Food delivery App based on user position with dynamic status of the rider on the map.",
+    "link": "https://github.com/iam-Igor/food2you"
+  },
+  {
+    "id": 2,
+    "image": "https://res.cloudinary.com/dr4x8lu8f/image/upload/v1710842761/weather_bgpcit.png",
+    "title": "Weather App",
+    "client": "Private",
+    "type": "WebApp",
+    "description": "Real time Weather App with the possibility of chosing a desired location and see 4 days forecast with beautiful animations and background images",
+    "link": "https://u3-w2-weather-app-project.vercel.app"
+  },
+  {
+    "id": 3,
+    "image": "https://res.cloudinary.com/dr4x8lu8f/image/upload/v1710842761/iosClone_xj10wu.png",
+    "title": "iOS Clone",
+    "client": "Private",
+    "type": "WebApp",
+    "description": "iOS Clone fully working, with drag, swipe and touch event listeners, real time stocks app, camera fully working with the possibility of capturing photos that automatically are saved on the gallery and other more.",
+    "link": "https://ios-clone.vercel.app"
+  },
+  {
+    "id": 4,
+    "image": "https://res.cloudinary.com/dr4x8lu8f/image/upload/v1710842760/hangman_mpeznt.png",
+    "title": "HangMan Game",
+    "client": "Private",
+    "type": "WebApp/Game",
+    "description": "The Classic hangman game fully responsive and bilingual (IT/EN)",
+    "link": "https://hangman-theta-vert.vercel.app"
+  }
+]
