@@ -44,6 +44,7 @@ body {
   height: 4px;
   background: #fa9143;
   transform-origin: 0%;
+  z-index:2;
 }
 
 /* HERO */
