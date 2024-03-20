@@ -44,7 +44,7 @@ body {
   height: 4px;
   background: #fa9143;
   transform-origin: 0%;
-  z-index:2;
+  z-index: 2;
 }
 
 /* HERO */
@@ -116,7 +116,7 @@ section p {
 /* SKILLS */
 
 .logos-cont {
-  width: 60%;
+  width: 75%;
   display: flex;
   margin-bottom: 2em;
   align-self: center;
