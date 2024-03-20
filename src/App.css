@@ -116,6 +116,7 @@ section p {
 /* SKILLS */
 
 .logos-cont {
+  flex-wrap: wrap;
   width: 75%;
   display: flex;
   margin-bottom: 2em;
