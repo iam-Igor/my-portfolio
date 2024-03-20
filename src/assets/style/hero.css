@@ -12,6 +12,14 @@ body {
   font-size: 10vw;
 }
 
+@media screen and (max-width: 480px) {
+  .headline {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 12vw;
+  }
+}
+
 .inset {
   position: absolute;
   inset: 0;
