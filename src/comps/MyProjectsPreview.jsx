@@ -16,8 +16,6 @@ const MyProjectsPreview = () => {
       return useTransform(value, [0, 1], [-distance, distance]);
     }
 
-    console.log(id);
-
     const ref = useRef(null);
     const { scrollYProgress } = useScroll({ target: ref });
     const y = useParallax(scrollYProgress, 100);
