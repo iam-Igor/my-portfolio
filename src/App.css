@@ -175,3 +175,80 @@ section p {
 .btn-dial button:active {
   background-color: #fa9143;
 }
+
+/* MODAL */
+
+.cv-modal .modal-title {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cv-modal canvas {
+  width: 600px !important;
+  height: 712px !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 20px;
+}
+
+.react-pdf__Page {
+  border-radius: 20px;
+}
+
+.cv-modal .modal-body {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
+}
+
+.cv-modal .modal-header {
+  border-bottom: 2px solid #fa9143;
+}
+
+.cv-modal .modal-footer {
+  border-top: 2px solid #fa9143;
+}
+
+.cv-modal .btn-close {
+  color: #fa9143 !important;
+}
+
+.react-pdf__Page__textContent {
+  display: none;
+}
+
+.react-pdf__Page__textContent:nth-child() {
+  display: none;
+}
+
+.react-pdf__Page__annotations {
+  display: none;
+}
+
+.cv-modal button:first-of-type:not(.btn-close) {
+  background-color: #fa9143;
+  border: 0;
+}
+.cv-modal button:not(.btn-close) {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.cv-modal button:hover:first-of-type:not(.btn-close) {
+  background-color: rgba(250, 145, 67, 0.8);
+}
+
+.cv-modal button:active:first-of-type:not(.btn-close) {
+  background-color: #b36830 !important;
+}
+
+.cv-modal .modal-content {
+  background-color: #21252a;
+}
+
+@media screen and (max-width: 480px) {
+  .cv-modal canvas {
+    width: 390px !important;
+    height: 480px !important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 20px;
+  }
+}
