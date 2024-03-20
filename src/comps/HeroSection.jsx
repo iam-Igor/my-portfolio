@@ -45,7 +45,7 @@ const HeroSection = () => {
         layers={[background, headline, foreground, gradientOverlay]}
         className="full"
       />
-      <div className="center full text-center">
+      <div className="center full text-center headline-cont">
         <h1 className="headline gray">I am a Full-Stack Developer</h1>
       </div>
     </>

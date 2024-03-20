@@ -36,3 +36,14 @@ body {
 .gradient {
   background: linear-gradient(rgba(14, 62, 151, 0.5) 50%, black);
 }
+
+.headline-cont {
+  background: rgb(1, 1, 2);
+  background: linear-gradient(
+    180deg,
+    rgba(1, 1, 2, 1) 19%,
+    rgba(15, 17, 20, 1) 40%,
+    rgba(33, 37, 42, 1) 76%
+  );
+  height: 70vh;
+}

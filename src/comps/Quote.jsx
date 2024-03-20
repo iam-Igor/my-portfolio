@@ -10,7 +10,7 @@ const Quote = () => {
   return (
     <>
       {" "}
-      <div ref={ref}>
+      <div ref={ref} className="pb-5">
         <motion.h5
           className="text-secondary"
           initial={{ x: "-100vw" }}
