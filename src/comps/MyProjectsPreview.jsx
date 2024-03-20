@@ -20,14 +20,17 @@ const MyProjectsPreview = () => {
     const { scrollYProgress } = useScroll({ target: ref });
     const y = useParallax(scrollYProgress, 100);
 
+    const opacity = useTransform(scrollYProgress, [0.1, 0.3], [0, 1]);
+
     return (
       <>
         {projects && (
           <section className="py-5 d-flex flex-column align-items-center">
             <div ref={ref}>
-              <img
+              <motion.img
+                whileHover={{ scale: 1.1 }}
                 src={`${id.id.image}`}
-                alt="A London skyscraper"
+                alt={`${id.id.image}`}
                 style={{ height: "280px", maxWidth: "100%" }}
                 className="pointer rounded-4 prj-img"
                 onClick={() => {
@@ -36,9 +39,8 @@ const MyProjectsPreview = () => {
               />
             </div>
             <div className="text-center">
-              {" "}
-              <motion.h2 style={{ y }}>{`#${id.id.title}`}</motion.h2>
-              <motion.p style={{ y }}>{id.id.description}</motion.p>
+              <motion.h2 style={{ y, opacity }}>{`#${id.id.title}`}</motion.h2>
+              <motion.p style={{ y, opacity }}>{id.id.description}</motion.p>
             </div>
           </section>
         )}

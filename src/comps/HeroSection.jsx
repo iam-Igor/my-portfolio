@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 const HeroSection = () => {
   const [wordIndex, setWordIndex] = useState(0);
-  const words = ["There!", "World!", "User!", "Devs!", "Everybody!"];
+  const words = ["World!", "User!", "Devs!", "Everybody!"];
   const [currentWord, setCurrentWord] = useState("");
 
   const background = {
