@@ -54,6 +54,9 @@ const NavBar = () => {
                 <NavDropdown.Item href="https://www.instagram.com/igorgarofalo/">
                   <i className="bi bi-instagram me-2"></i> Instagram
                 </NavDropdown.Item>
+                <NavDropdown.Item href="https://discordapp.com/users/829465239455006730">
+                  <i className="bi bi-discord text-white me-2"></i>Discord
+                </NavDropdown.Item>
                 <NavDropdown.Item href="mailto:igorgarofalo@gmail.com">
                   <i className="bi bi-envelope-at me-2"></i> Email
                 </NavDropdown.Item>

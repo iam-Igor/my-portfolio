@@ -26,6 +26,9 @@ const Footer = () => {
             <a href="https://www.instagram.com/igorgarofalo/">
               <i className="bi bi-instagram text-white"></i>
             </a>
+            <a href="https://discordapp.com/users/829465239455006730">
+              <i className="bi bi-discord text-white"></i>
+            </a>
           </div>
         </div>
       </div>
