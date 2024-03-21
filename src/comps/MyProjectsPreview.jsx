@@ -31,7 +31,6 @@ const MyProjectsPreview = () => {
                 whileHover={{ scale: 1.1 }}
                 src={`${id.id.image}`}
                 alt={`${id.id.image}`}
-                style={{ height: "280px", maxWidth: "100%" }}
                 className="pointer rounded-4 prj-img"
                 onClick={() => {
                   window.open(id.id.link);

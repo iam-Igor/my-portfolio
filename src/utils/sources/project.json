@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://res.cloudinary.com/dr4x8lu8f/image/upload/v1710842761/food2you_ls7uj1.png",
+    "image": "https://res.cloudinary.com/dr4x8lu8f/image/upload/v1711018077/IMG_0437_ujmzkq.png",
     "title": "Food2You",
     "client": "Private",
     "type": "WebApp",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "image": "https://res.cloudinary.com/dr4x8lu8f/image/upload/v1710842761/weather_bgpcit.png",
+    "image": "https://res.cloudinary.com/dr4x8lu8f/image/upload/v1711018078/IMG_0439_csizwl.png",
     "title": "Weather App",
     "client": "Private",
     "type": "WebApp",
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "image": "https://res.cloudinary.com/dr4x8lu8f/image/upload/v1710842761/iosClone_xj10wu.png",
+    "image": "https://res.cloudinary.com/dr4x8lu8f/image/upload/v1711018078/iPhone-13-PRO-ios-clone.vercel.app_y14xsh.png",
     "title": "iOS Clone",
     "client": "Private",
     "type": "WebApp",
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "image": "https://res.cloudinary.com/dr4x8lu8f/image/upload/v1710842760/hangman_mpeznt.png",
+    "image": "https://res.cloudinary.com/dr4x8lu8f/image/upload/v1711018077/IMG_0438_q5aazi.png",
     "title": "HangMan Game",
     "client": "Private",
     "type": "WebApp/Game",

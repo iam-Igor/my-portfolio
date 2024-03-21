@@ -113,6 +113,18 @@ section p {
   width: 300px;
 }
 
+.prj-img {
+  height: 280px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .prj-img {
+    height: 200px;
+    max-width: 100%;
+  }
+}
+
 /* SKILLS */
 
 .logos-cont {
