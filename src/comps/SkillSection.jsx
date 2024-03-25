@@ -93,6 +93,7 @@ const SkillSection = () => {
                     }}
                     onClose={handlePopoverClose}
                     disableRestoreFocus
+                    disableScrollLock
                   >
                     <Typography sx={{ p: 1 }}>{logo.title}</Typography>
                   </Popover>
