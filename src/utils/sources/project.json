@@ -50,7 +50,7 @@
     "title": "Monkey Form!",
     "client": "Private",
     "type": "WebApp/Component",
-    "description": "A simple and funny login form fully customizable, it provides built in submit function and a funny monkey animation on show/hide passord checkbox with monkey covering his eyes.",
+    "description": "A simple and funny login form fully customizable, it provides built in submit function and a funny monkey animation on show/hide password checkbox with monkey covering his eyes.",
     "link": "https://monkey-form-4csdf2j5h-iam-igors-projects.vercel.app"
   },
   {
@@ -59,7 +59,7 @@
     "title": "Roulette of Names",
     "client": "Private",
     "type": "WebApp/Game",
-    "description": "If you're going to take a decision and you don't know what to choose, use this App! You can add as much entries as you want, customizable colors and winner announcement. Fully responsive!",
+    "description": "If you're going to make a decision and you don't know what to choose, use this App! You can add as much entries as you want, customizable colors and winner announcement. Fully responsive!",
     "link": "https://roulette-of-names.vercel.app"
   }
 ]
