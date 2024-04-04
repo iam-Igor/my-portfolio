@@ -61,5 +61,14 @@
     "type": "WebApp/Game",
     "description": "If you're going to make a decision and you don't know what to choose, use this App! You can add as much entries as you want, customizable colors and winner announcement. Fully responsive!",
     "link": "https://roulette-of-names.vercel.app"
+  },
+  {
+    "id": 8,
+    "image": "https://res.cloudinary.com/dr4x8lu8f/image/upload/v1712266332/IMG_4959_ziszrr.png",
+    "title": "Memory Game",
+    "client": "Private",
+    "type": "WebApp/Game",
+    "description": "The classic memory game for all ages, train your brain with this intuitive game made for 2 players fully responsive",
+    "link": "https://memory-game-two-zeta.vercel.app"
   }
 ]
