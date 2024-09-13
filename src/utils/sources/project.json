@@ -79,6 +79,6 @@
     "client": "Private",
     "type": "WebApp",
     "description": "Calculate your Italian Tax ID code, or retrieve your data inversely",
-    "link": "https://calcolatore-codice-fiscale.vercel.app/calcola-cf"
+    "link": "https://calcolatore-codice-fiscale.vercel.app"
   }
 ]
