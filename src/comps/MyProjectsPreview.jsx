@@ -37,7 +37,7 @@ const MyProjectsPreview = () => {
                 }}
               />
             </div>
-            <div className="text-center">
+            <div className="text-center d-flex flex-column justify-content-center align-items-center">
               <motion.h2 style={{ y, opacity }}>{`#${id.id.title}`}</motion.h2>
               <motion.p style={{ y, opacity }}>{id.id.description}</motion.p>
             </div>

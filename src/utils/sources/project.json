@@ -70,5 +70,15 @@
     "type": "WebApp/Game",
     "description": "The classic memory game for all ages, train your brain with this intuitive game made for 2 players fully responsive",
     "link": "https://memory-game-two-zeta.vercel.app"
+  },
+
+  {
+    "id": 9,
+    "image": "https://res.cloudinary.com/dr4x8lu8f/image/upload/v1726266925/IMG_0665_ub0jio.png",
+    "title": "Codice fiscale IT calculator",
+    "client": "Private",
+    "type": "WebApp",
+    "description": "Calculate your Italian Tax ID code, or retrieve your data inversely",
+    "link": "https://calcolatore-codice-fiscale.vercel.app/calcola-cf"
   }
 ]
