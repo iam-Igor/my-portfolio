@@ -80,5 +80,14 @@
     "type": "WebApp",
     "description": "Calculate your Italian Tax ID code, or retrieve your data inversely",
     "link": "https://calcolatore-codice-fiscale.vercel.app"
+  },
+  {
+    "id": 10,
+    "image": "https://res.cloudinary.com/dr4x8lu8f/image/upload/v1726587639/IMG_0690_fqg5ov.png",
+    "title": "Calculator App",
+    "client": "Private",
+    "type": "WebApp",
+    "description": "A simple calculator app with a beautiful design",
+    "link": "https://calculator-inky-nu-13.vercel.app/"
   }
 ]
